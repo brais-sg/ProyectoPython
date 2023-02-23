@@ -2,7 +2,7 @@ version: '3'
 
 services:
   python:
-    image: python:3.9
+    image: youtubeimagen:latest
     volumes:
       - .:/app
     working_dir: /app
